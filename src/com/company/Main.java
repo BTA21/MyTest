@@ -1,55 +1,66 @@
 package com.company;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
+
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-//        int i =0;
-//        while(i < 10) {
-//            if(i == 5)
-//                break;
-//            if(i % 2 == 0) {
-//                i++;
-//                continue;
-//            }
-//            System.out.println(i);
-//            i++;
-//        }
-//        LinkedList<String> names = new LinkedList<>();
-//        names.add("Ильшат");
-//        names.add("Виктор");
-//        names.add("Дмитрий");
-//        names.add("Артём");
-//        names.add("Мират");
-//        for (String item: names){
-//            System.out.println(item);
-//        }
-//        int[][] big_arr = new int[][]{
-//                {1,2,3,4},
-//                {76,21,79,32},
-//                {0,56,38,93}
-//        };
-//        for(int i = 0; i<big_arr.length;i++){
-//            for(int j = 0; j<big_arr[i].length;j++) {
-//                System.out.print(big_arr[i][j] + " ");
-//         }
-//            System.out.println(" ");
-//        }
+       int num = 21;
+       String[] names = new String[3];
+       String[] surnames = new String[3];
+       int[] ages = new int[3];
+       mkArr(names);
+       mkArr(surnames);
+       mkArr(ages);
+        printArr(names);
+        printArr(surnames);
+        printArr(ages);
+        int result = sum(24,-3);
+        printArr(result);
 
-//        short[] arr = new short[] {5,7,1,21,4545,32,8};
-//        for(int i = 0; i<arr.length;i++){
-//            System.out.println("Значение элемента " + (i+1) + " = " + arr[i]);
-//        }
-
-//        int user_input;
-//        Scanner in = new Scanner(System.in);
-//        do{
-//            System.out.println("Введите число 21");
-//            user_input = in.nextInt();
-//        } while(user_input != 21);
-//        System.out.println("Вы молодец!");
     }
+    public static String[] mkArr(String[] arr){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Список имён");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("Введите " + (i+1) + " элемент:");
+            arr[i] = in.nextLine();
+        }
+        return arr;
+    }
+
+    public static int[] mkArr(int[] arr){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Список возрастов");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("Введите " + (i+1) + " элемент:");
+            arr[i] = in.nextInt();
+        }
+        return arr;
+    }
+
+    public static void printArr(String[] arr) {
+        for(String anArr : arr)
+            System.out.println("Значение элемента: " + anArr);
+
+        System.out.println(" ");
+
+    }
+
+    public static void printArr(int[] arr) {
+        for(int anArr : arr)
+            System.out.println("Значение элемента: " + anArr);
+
+        System.out.println(" ");
+
+    }
+    public static void printArr(int word) {
+            System.out.println(word);
+    }
+
+    public static int sum(int a, int b){
+        int res = a + b;
+        return res;
+    }
+
 }
