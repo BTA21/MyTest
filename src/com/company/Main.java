@@ -1,21 +1,51 @@
 package com.company;
 
+import java.io.*;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        float[] arr = new float[] {5.7f, 3.1f, 0.035f};
-        try {
-            System.out.println(arr[3]);
-            int result = 13 / 1;
-        } catch(ArithmeticException e) {
-            System.out.println("Ошибка: " +  e);
-        } catch(ArrayIndexOutOfBoundsException e) {
-            System.out.println("Ошибка: " +  e);
-        } finally {
-            System.out.println("Сработал блок finally!");
+        File file = new File("text.txt");
+
+        if(!file.exists()){
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
+        String context = readFile();
+        try {
+            PrintWriter pw = new PrintWriter(file);
+            Scanner in = new Scanner(System.in);
+            String userInput = in.nextLine();
+            context += userInput;
+            pw.println(context);
+            pw.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(readFile());
+
+    }
+
+    public static String readFile() {
+        BufferedReader br = null;
+        String result = "";
+//        BufferedReader br = new BufferedReader();
+        try {
+            br = new BufferedReader(new FileReader("text.txt"));
+            String line;
+            while((line = br.readLine()) != null) {
+                result+= line + "\n";
+            }
+            br.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 
 }
