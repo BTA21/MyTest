@@ -6,7 +6,7 @@ public class Car {
     private float weight;
     private String color;
     private boolean isWork;
-    
+
 
     Car(short speed) {
         this.speed = speed;
