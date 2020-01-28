@@ -1,11 +1,12 @@
 package com.company;
 
 public class Car {
-    short speed;
+    protected short speed;
     private  String model;
     private float weight;
     private String color;
     private boolean isWork;
+    
 
     Car(short speed) {
         this.speed = speed;
@@ -15,7 +16,7 @@ public class Car {
         this.weight = weight;
         this.color = color;
         this.isWork = isWork;
-        printAll();
+//        printAll();
     }
 
     Car() {

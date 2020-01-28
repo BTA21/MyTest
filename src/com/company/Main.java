@@ -12,10 +12,15 @@ public class Main {
         Car chevrolet = new Car("camaro",1072.67f,"yellow",true);
         chevrolet.speed = 200;
 //        chevrolet.setAll("camaro",1072.67f,"yellow",true);
-//        chevrolet.printAll();
+        chevrolet.printAll();
 //        System.out.println(chevrolet.speed);
 
+        Lad kal = new Lad(true,"kalina",1320.2f,"White",true, (short)145);
+        kal.printAll();
+
+
     }
+
 
 
 }
