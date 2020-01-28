@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
@@ -100,7 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580167623230</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created OOP branch">
+      <created>1580167872971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580167872972</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created OOP branch">
+      <created>1580167918870</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580167918870</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,17 +129,18 @@
     <MESSAGE value="functions" />
     <MESSAGE value="exceptions" />
     <MESSAGE value="file options" />
-    <option name="LAST_COMMIT_MESSAGE" value="file options" />
+    <MESSAGE value="created OOP branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="created OOP branch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="177" key="#Notifications" timestamp="1580148263176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1580148263176" />
-    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1580167872700">
+    <state x="614" y="113" key="CommitChangelistDialog2" timestamp="1580167918589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580167872700" />
+    <state x="614" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580167918589" />
     <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1580150516260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -127,34 +149,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="830" y="412" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580151002224" />
-    <state width="938" height="277" key="GridCell.Tab.0.bottom" timestamp="1580167525027">
+    <state width="938" height="277" key="GridCell.Tab.0.bottom" timestamp="1580204236823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580167525027" />
-    <state width="938" height="277" key="GridCell.Tab.0.center" timestamp="1580167525027">
+    <state width="938" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580204236823" />
+    <state width="938" height="277" key="GridCell.Tab.0.center" timestamp="1580204236822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580167525027" />
-    <state width="938" height="277" key="GridCell.Tab.0.left" timestamp="1580167525027">
+    <state width="938" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580204236822" />
+    <state width="938" height="277" key="GridCell.Tab.0.left" timestamp="1580204236822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580167525027" />
-    <state width="938" height="277" key="GridCell.Tab.0.right" timestamp="1580167525027">
+    <state width="938" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580204236822" />
+    <state width="938" height="277" key="GridCell.Tab.0.right" timestamp="1580204236822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580167525027" />
+    <state width="938" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580204236822" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1580150530298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580150530298" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1580167494482">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1580167952949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580167494482" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580167952949" />
     <state x="774" y="413" key="git4idea.ui.GitResetDialog" timestamp="1580154704775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="774" y="413" key="git4idea.ui.GitResetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580154704775" />
+    <state x="342" y="139" key="new project wizard" timestamp="1580168173958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="139" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580168173958" />
     <state x="666" y="138" key="refactoring.ChangeSignatureDialog" timestamp="1580152212739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
