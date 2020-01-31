@@ -9,10 +9,16 @@ public class Lad extends Car {
         this.speed = speed;
     }
 
+    @Override
+    void startEngine() {
+        System.out.println("Врум, врум!");
+    }
+
     void printAll() {
         super.printAll();
         String isMPerformance = this.isMPerformance?"является":"не является";
         System.out.println("Машина " + isMPerformance + " М перформанс");
+        super.engine.drive();
     }
 }
 
