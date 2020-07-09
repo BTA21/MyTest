@@ -1,5 +1,12 @@
 package com.company;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.nio.channels.Channels;
+import java.nio.channels.ReadableByteChannel;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -32,5 +39,13 @@ public class Main {
 //            }
 //        });
 //        obj_6.start();
+        try {
+            URL website = new URL("http://google.com");
+            ReadableByteChannel rbc = Channels.newChannel(website.openStream());
+            FileOutputStream file = new FileOutputStream("data.html");
+            file.getChannel().transferFrom(rbc, 0,Long.MAX_VALUE);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

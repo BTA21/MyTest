@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30520953-1993-40e9-b8ca-60fd361a8a7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/NewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="30520953-1993-40e9-b8ca-60fd361a8a7c" name="Default Changelist" comment="Basics of threads">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyTest/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyTest/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowCommit.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -91,6 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1580129579736</updated>
     </task>
+    <task id="LOCAL-00001" summary="Basics of threads">
+      <created>1594288747795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594288747795</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,27 +111,31 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basics of threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basics of threads" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1594288082581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594288082581" />
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1594288457048">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1594290597949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594288457048" />
-    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1594288457048">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594290597949" />
+    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1594290597949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594288457048" />
-    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1594288457048">
+    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594290597949" />
+    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1594290597949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594288457048" />
-    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1594288457048">
+    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594290597949" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1594290597949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594288457048" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594290597949" />
     <state width="1898" height="342" key="GridCell.Tab.1.bottom" timestamp="1594287928573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -146,5 +156,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594287087276" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594288760352">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594288760352" />
   </component>
 </project>
