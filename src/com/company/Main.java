@@ -1,55 +1,36 @@
 package com.company;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-//        int i =0;
-//        while(i < 10) {
-//            if(i == 5)
-//                break;
-//            if(i % 2 == 0) {
-//                i++;
-//                continue;
+//        Elements obj_1 = new Elements();
+//        obj_1.start();
+//
+//        Elements obj_2 = new Elements();
+//        obj_2.start();
+//        Thread obj_3 = new Thread(new NewTest());
+//        obj_3.start();
+//
+//        Thread obj_4 = new Thread(new NewTest());
+//        obj_4.start();
+
+//        Thread obj_5 = new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                for (int i = 1; i <= 21; i++)
+//                    System.out.println("Элемент: " + i);
 //            }
-//            System.out.println(i);
-//            i++;
-//        }
-//        LinkedList<String> names = new LinkedList<>();
-//        names.add("Ильшат");
-//        names.add("Виктор");
-//        names.add("Дмитрий");
-//        names.add("Артём");
-//        names.add("Мират");
-//        for (String item: names){
-//            System.out.println(item);
-//        }
-//        int[][] big_arr = new int[][]{
-//                {1,2,3,4},
-//                {76,21,79,32},
-//                {0,56,38,93}
-//        };
-//        for(int i = 0; i<big_arr.length;i++){
-//            for(int j = 0; j<big_arr[i].length;j++) {
-//                System.out.print(big_arr[i][j] + " ");
-//         }
-//            System.out.println(" ");
-//        }
-
-//        short[] arr = new short[] {5,7,1,21,4545,32,8};
-//        for(int i = 0; i<arr.length;i++){
-//            System.out.println("Значение элемента " + (i+1) + " = " + arr[i]);
-//        }
-
-//        int user_input;
-//        Scanner in = new Scanner(System.in);
-//        do{
-//            System.out.println("Введите число 21");
-//            user_input = in.nextInt();
-//        } while(user_input != 21);
-//        System.out.println("Вы молодец!");
+//        });
+//
+//        obj_5.start();
+//
+//        Thread obj_6 = new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                for (int i = 1; i <= 21; i++)
+//                    System.out.println("Элемент: " + i);
+//            }
+//        });
+//        obj_6.start();
     }
 }
